@@ -20,7 +20,7 @@ For endpoints that need authentication, just pass tenantId as query parameter
 `/notifications/{from?}` - returns notifications (**need authorization**)
 
 ### Running tests
-gradle test
+./gradlew test
 
 ### Running server
-gradle run
+./gradlew run
