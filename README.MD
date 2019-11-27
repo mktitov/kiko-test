@@ -1,10 +1,10 @@
-##Description
+## Description
 Test implemented by using kotlin coroutines and ktor.
 
-###Authentication
+### Authentication
 For endpoints that need authentication, just pass tenantId as query parameter 
 
-###Endpoints: 
+### Endpoints: 
 `/flats/{id}` - returns information about flat
 `/flats/{id}/schedules` - returns information about schedules
 `/flats/{id}/schedules/{time}/reserve` - allows to make a reservation for specified time (**need authorization**)
@@ -13,8 +13,8 @@ For endpoints that need authentication, just pass tenantId as query parameter
 `/flats/{id}/schedules/{time}/reject` - allows to reject reservation for current tenant (**need authorization**)
 `/notifications/{from?}` - returns notifications (**need authorization**)
 
-###Running tests
+### Running tests
 gradle test
 
-###Running server
+### Running server
 gradle run
